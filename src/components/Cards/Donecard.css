@@ -1,0 +1,28 @@
+/* Styling Done Card Text */
+.text-success{
+    position: relative;
+    width: 235px;
+    height: 60px;
+    left: 16%;
+    top:2%;
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: -0.04em;
+    background: linear-gradient(144.41deg, #818BE9 47.54%, #E47FDA 91.07%), #7BD2AD;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+/* Styling Done Card Image */
+.done-img{
+    position: relative;
+    width: 293px;
+    height: 233.04px;
+    left: 46px;
+    top: 28px;
+}

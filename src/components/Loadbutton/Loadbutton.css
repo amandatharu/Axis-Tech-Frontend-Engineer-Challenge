@@ -1,0 +1,87 @@
+/* Styling Load More Button Container in Light Mode */
+#light .LoadMore{
+    position: relative;
+    top:670px;
+    display: flex;
+    padding-top: 62px;
+    justify-content: center;
+    width: 100%;
+}
+
+/* Styling Load More Button in Light Mode */
+#light .load-button{
+    padding: 15px 60px;
+    gap: 10px;
+    width: 229px;
+    height: 53px;
+    background: #FFFFFF;
+    box-shadow: 0px 19px 41px rgba(216, 216, 216, 0.5);
+    border: none;
+    border-radius: 10px;
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: -0.04em;
+    color: #212326;
+    margin-bottom: 7%;
+}
+
+/* Load More Button Hover in Light Mode*/
+#light .load-button:hover{
+    background-color: rgba(250, 238, 252, 0.9);
+    transition: all 0.3s ease-out;
+    color: rgba(22,22,22);
+}
+
+/* Load More Button Active in Light Mode*/
+#light .load-button:active{
+    background-color: rgb(142, 90, 187);
+    transition: 100ms;
+    color: #f6f6f6;
+}
+
+/* Styling Load More Button Container in Dark Mode */
+#dark .LoadMore{
+    position: relative;
+    top:670px;
+    display: flex;
+    justify-content: center;
+    padding-top: 62px;
+    width: 100%;
+    background-color: #212326;
+}
+
+/* Styling Load More Button in Dark Mode */
+#dark .load-button{
+    padding: 15px 60px;
+    gap: 10px;
+    width: 229px;
+    height: 53px;
+    background: #2A2D39;
+    border: none;
+    border-radius: 10px;
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: -0.04em;
+    color: #FFFFFF;
+    margin-bottom: 7%;
+}
+
+/* Load More Button Hover in Dark Mode*/
+#dark .load-button:hover{
+    background-color: rgba(85, 9, 98, 0.9);
+    transition: all 0.3s ease-out;
+    color: rgb(255, 255, 255);
+}
+
+/* Load More Button Active in Dark Mode*/
+#dark .load-button:active{
+    background-color: rgb(142, 90, 187);
+    transition: 100ms;
+    color: #f6f6f6;
+}

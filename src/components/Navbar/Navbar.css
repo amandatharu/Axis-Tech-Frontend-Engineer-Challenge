@@ -1,0 +1,32 @@
+/* Styling Text of Navbar Logo */
+.navbar-logotext{
+    float: left;
+    padding-left: 4.5%;
+    font-weight:900;
+    font-size: 35px;
+    line-height: 48px;
+    letter-spacing: -0.06em;
+    font-family: 'Circular Std', sans-serif;
+    width: 206px;
+    height: 48px;
+    position: absolute;
+    top:16px;
+    left:81px;
+    background: linear-gradient(177.68deg, #818BE9 1.95%, #AF93FF 98.06%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;                                               
+}
+
+/* Styling Navbar Logo Image Container */
+.navbar-logo{
+  position: absolute;
+  left: 108px;
+  top: 37px;
+}
+
+/* Styling Navbar Logo Image*/
+.logo-image{
+  width: 48px;
+  height: 48px;
+}

@@ -1,0 +1,206 @@
+/* Styling of Main Range Bar Container */
+.slide-container{
+    position: relative;
+    width: 100%;
+    top:-3.3%;
+  }
+
+  /* Styling of Range Bar in Light Mode */
+#light .slide-container .bar{
+    position: absolute;
+    z-index: 1;
+    left:0;
+    top:9px;
+    width:100.5%;
+    height: 10px;
+    background-color: #F4F4F4;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+ /* Styling of Range Bar in Dark Mode */
+#dark .slide-container .bar{
+    position: absolute;
+    z-index: 1;
+    left:0;
+    top:9px;
+    width:100.5%;
+    height: 10px;
+    background-color: #3F424F;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+/* Styling to Hide Default Orange Range Bar in Light Mode  */
+#light .slide-container .slidebtn-orange {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 7px;
+    background: transparent;
+    border-radius: 9px;
+    outline: none;
+    position: relative;
+    z-index: 1;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+/* Styling to Hide Default Orange Range Bar in Dark Mode  */
+#dark .slide-container .slidebtn-orange {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 7px;
+    background: transparent;
+    border-radius: 9px;
+    outline: none;
+    position: relative;
+    z-index: 2;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+/* Orange Range Bar Hover */
+.slide-container .slidebtn-orange:hover {
+    opacity: 1;
+  }
+  
+/* Styling Thumb of Orange Range Bar on Chrome */
+.slide-container .slidebtn-orange::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 16.44px;
+    height: 17px;
+    background: #FDA16E;
+    position: relative;
+    top:3px;
+    left: -1px;
+    cursor: pointer;
+    border-radius:6px;
+}
+
+/* Styling Thumb of Orange Range Bar on  Firefox*/
+.slide-container .slidebtn-orange::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    background: #FDA16E;
+    position: relative;
+    top:3px;
+    left: -1px;
+    cursor: pointer;
+}
+
+/* Styling to Hide Default Yellow Range Bar in Light Mode  */
+ #light .slide-container .slidebtn-yellow {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 7px;
+    background: transparent;
+    border-radius: 9px;
+    outline: none;
+    position: relative;
+    z-index: 2;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+/* Styling to Hide Default Yellow Range Bar in Dark Mode  */
+#dark .slide-container .slidebtn-yellow {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 7px;
+    background: transparent;
+    border-radius: 9px;
+    outline: none;
+    position: relative;
+    z-index: 2;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+/* Yellow Range Bar Hover */
+.slidebtn-yellow:hover {
+    opacity: 1;
+  }
+
+/* Styling Thumb of Yellow Range Bar on Chrome */
+.slidebtn-yellow::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 16.44px;
+    height: 17px;
+    background: #F8C16F;
+    position: relative;
+    top:3px;
+    left: -1px;
+    cursor: pointer;
+    border-radius:6px;
+}
+
+/* Styling Thumb of Yellow Range Bar on  Firefox*/
+.slidebtn-yellow::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    background: #F8C16F;
+    position: relative;
+    top:3px;
+    left: -1px;
+    cursor: pointer;
+}
+
+/* Styling to Hide Default Green Range Bar in Light Mode  */
+#light .slide-container .slidebtn-green {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 7px;
+    background: transparent;
+    border-radius: 9px;
+    outline: none;
+    position: relative;
+    z-index: 2;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+/* Styling to Hide Default Green Range Bar in Dark Mode  */
+#dark .slide-container .slidebtn-green {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 7px;
+    background: transparent;
+    border-radius: 9px;
+    outline: none;
+    position: relative;
+    z-index: 2;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+/* Green Range Bar Hover */
+.slide-container .slidebtn-green:hover {
+    opacity: 1;
+  }
+
+/* Styling Thumb of Green Range Bar on Chrome */
+.slide-container .slidebtn-green::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 16.44px;
+    height: 17px;
+    background: #7BD2AE;
+    position: relative;
+    top:3px;
+    left: -1px;
+    cursor: pointer;
+    border-radius:6px;
+}
+
+/* Styling Thumb of Green Range Bar on  Firefox*/
+.slide-container .slidebtn-green::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    position: relative;
+    top:3px;
+    left: -1px;
+    background: #7BD2AE;
+    cursor: pointer;
+}

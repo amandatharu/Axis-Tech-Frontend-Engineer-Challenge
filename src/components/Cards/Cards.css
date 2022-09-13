@@ -1,0 +1,170 @@
+/* Styling Default Card in Light Mode */
+#light .my-card{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 25px;
+    gap: 17px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 48px rgba(23, 23, 23, 0.1);
+    border-radius: 10px;
+    width: 365px;
+    max-width: 365px;
+    height: 444.5px;
+    float: left;
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-bottom: 5.5%;
+}
+
+/* Styling Donate Card Heading in Light Mode */
+#light .card-heading{
+    width: 328px;
+    height: 60px;
+    font-family: 'Circular Std', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 29px;
+    line-height: 36px;
+    letter-spacing: -0.04em;
+    margin-left: 2%;
+    margin-top: -0.9%;
+    color: #212326;
+    flex: none;
+    order: 0;
+    text-align: left;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+/* Styling Default Card in Light Mode */
+#dark .my-card{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 25px;
+    gap: 17px;
+    background: #2A2D39;
+    box-shadow: 0px 2px 48px rgba(23, 23, 23, 0.1);
+    border-radius: 10px;
+    width: 365px;
+    height: 444.5px;
+    float: left;
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-bottom: 5.5%;
+}
+
+/* Styling Donate Card Heading in Dark Mode */
+#dark .card-heading{
+    width: 328px;
+    height: 60px;
+    font-family: 'Circular Std', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 29px;
+    line-height: 36px;
+    letter-spacing: -0.04em;
+    margin-left: 2%;
+    margin-top: -0.9%;
+    color: #C6C7CD;
+    flex: none;
+    order: 0;
+    text-align: left;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+/* Styling Donate Card Image */
+.card-image{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 10px;
+    gap: 10px;
+    width: 356px;
+    height: 194px;
+    border-radius: 10px;
+    margin-left: -1%;
+    margin-top: -2%;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+/* Styling Donate Card Price in Light Mode */
+#light .card-price{
+    width: 123px;
+    height: 30px;
+    margin-left: -6.5%;
+    font-family: 'Circular Std', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 25px;
+    line-height: 30.36px;
+    letter-spacing: -0.04em;
+    color: #212326;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    float: left;
+    position: relative;
+    top: -3%;
+}
+
+/* Styling Donate Card Raised Text in Light Mode */
+#light .card-text{
+    position: relative;
+    top:-13.5%;
+    left:21.5%;
+    font-family: 'Circular Std', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 30.36px;
+    letter-spacing: -0.02em;
+    color: #B2B4BA;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    float: left;
+}
+
+/* Styling Donate Card Price in Dark Mode */
+#dark .card-price{
+    width: 123px;
+    height: 30px;
+    margin-left: -6.5%;
+    font-family: 'Circular Std', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 25px;
+    line-height: 30.36px;
+    letter-spacing: -0.04em;
+    color: #C6C7CD;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    float: left;
+    position: relative;
+    top: -3%;
+}
+
+/* Styling Donate Card Raised Text in Dark Mode */
+#dark .card-text{
+    position: relative;
+    top:-13.5%;
+    left:21.5%;
+    font-family: 'Circular Std', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 30.36px;
+    letter-spacing: -0.02em;
+    color: #B2B4BA;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    float: left;
+}

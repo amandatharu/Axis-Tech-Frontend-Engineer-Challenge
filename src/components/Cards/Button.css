@@ -1,0 +1,106 @@
+/* Styling of Donate Button Component */
+.donate-btn{
+    position: relative;
+    top: -13.2%;
+    padding: 15px 20px;
+    gap: 10px;
+    width: 100%;
+    height: 52px;
+    background: #818BE9;
+    border-radius: 10px;
+    align-self: stretch;
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: -0.04em;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+    border: none;
+}
+
+/* Donate Button Component Hover */
+.donate-btn:hover{
+    background-color: #727bce;
+}
+
+/* Donate Button Component Active */
+.donate-btn:active{
+    background-color: #99a1ec;
+}
+
+/* Styling of Pay Button Component */
+.pay-btn{
+    position: relative;
+    padding: 15px 20px;
+    gap: 10px;
+    width: 370%;
+    margin-left: -5%;
+    top:-310%;
+    height: 52px;
+    background: #F8C16F;
+    border-radius: 10px;
+    align-self: stretch;
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: -0.04em;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+    border: none;
+}
+
+/* Pay Button Component Hover */
+.pay-btn:hover{
+    background-color: #f4b04b;
+}
+
+/* Pay Button Component Active */
+.pay-btn:active{
+    background-color: #eec382;
+}
+
+/* Styling of Done Button Component */
+.done-btn{
+    position: relative;
+    top:49%;
+    left: 2%;
+    padding: 15px 20px;
+    gap: 10px;
+    width: 470%;
+    height: 52px;
+    background: #AF93FF;
+    border-radius: 10px;
+    align-self: stretch;
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: -0.04em;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+    border: none;
+}
+
+/* Done Button Component Hover */
+.done-btn:hover{
+    background-color: #9673f6;
+}
+
+/* Done Button Component Active */
+.done-btn:active{
+    background-color: #a8aee6;
+}

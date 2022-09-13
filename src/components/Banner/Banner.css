@@ -1,0 +1,127 @@
+/* Styling of Main Banner div container */
+.PageBanner{
+    background: linear-gradient(144.41deg, #818BE9 47.54%, #E47FDA 91.07%);
+    border-radius: 20px;
+    position: absolute;
+    width: 85%;
+    height: 403px;
+    left: 110px;
+    top: 130px;
+}
+
+/* Styling of Banner Image  */
+.banner-picture{
+    float: left;
+    width: 49%;
+    margin-top: 5%;
+    margin-left: -4%;
+}
+
+.img-size{
+    width: 367.1px;
+    height: 266px;
+}
+
+/* Styling of Banner Text */
+.banner-text{
+    float: left;
+    width: 49%;
+    margin-top: 2.5%;
+}
+
+.banner-heading{
+    font-family: 'Circular Std', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 54px;
+    letter-spacing: -0.04em;
+    color: #FFFFFF;
+    width: 587px;
+    height: 108px;
+    text-align: left;
+}
+
+.banner-parah{
+    font-family: 'Circular Std', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: -0.04em;
+    color: #FFFFFF;
+    width: 484px;
+    height: 67px;
+    text-align: left;
+}
+
+/* Styling of Banner Button on Light Mode  */
+#light .banner-button{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 15px 60px;
+    gap: 10px;
+    width: 211px;
+    height: 53px;
+    background: #FFFFFF;
+    box-shadow: 0px 19px 41px rgba(217, 217, 217, 0.5);
+    border: none;
+    border-radius: 10px;
+    font-family: 'Circular Std', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: -0.04em;
+}
+
+/* Light Mode Banner Button Hover */
+#light .banner-button:hover{
+    background-color: rgba(250, 238, 252, 0.9);
+    transition: all 0.3s ease-out;
+    color: rgba(22,22,22);
+}
+
+/* Light Mode Banner Button Active */
+#light .banner-button:active{
+    background-color: rgb(142, 90, 187);
+    transition: 100ms;
+    color: #f6f6f6;
+}
+
+/* Styling of Banner Button on Dark Mode */
+#dark .banner-button{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 15px 60px;
+    gap: 10px;
+    width: 211px;
+    height: 53px;
+    background: #2A2D39;
+    color: #FFFFFF;
+    box-shadow: 0px 19px 41px rgba(217, 217, 217, 0.5);
+    border: none;
+    border-radius: 10px;
+    font-family: 'Circular Std', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: -0.04em;
+}
+
+/* Dark Mode Banner Button Hover */
+#dark .banner-button:hover{
+    background-color: rgba(85, 9, 98, 0.9);
+    transition: all 0.3s ease-out;
+    color: rgb(255, 255, 255);
+}
+
+/* Dark Mode Banner Button Active */
+#dark .banner-button:active{
+    background-color: rgb(142, 90, 187);
+    transition: 100ms;
+    color: #f6f6f6;
+}
