@@ -14,7 +14,7 @@
 <!-- * [License](#license) -->
 
 ## General Information
--The application is developed only using React.js and its React library features. 
+- The application is developed only using React.js and its React library features. 
 - As per request, no React component libraries or UI frameworks were used in this assignment.
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
@@ -32,11 +32,11 @@ List the ready features here:
 
 
 ## Setup
-No other external requirements / dependencies are required to setup or execute this system in one's local environment.
+No external requirements / dependencies are required to setup or execute this system in one's local environment.
 
 
 ## Usage
-This project uses Npm as package manager.
+This project uses Npm as package manager.\
 In the project directory, you can run:
 
 ### `npm start`
