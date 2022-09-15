@@ -1,9 +1,42 @@
-# Getting Started with Create React App
+#Axis-Tech-Frontend-Engineer-Challenege
+This application was built for a charity donation project as a part of the AxisTech selection process.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Table of Contents
+* [General Info](#general-information)
+* [Technologies Used](#technologies-used)
+* [Features](#features)
+* [Setup](#setup)
+* [Usage](#usage)
+* [Project Status](#project-status)
+* [Room for Improvement](#room-for-improvement)
+* [Acknowledgements](#acknowledgements)
+* [Contact](#contact)
+<!-- * [License](#license) -->
 
-## Available Scripts
+## General Information
+-The application is developed only using React.js and its React library features. 
+- As per request, no React component libraries or UI frameworks were used in this assignment.
+<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
+
+## Technologies Used
+- React.js
+
+
+## Features
+The project 
+List the ready features here:
+- Expected Front-end Development
+- Dark/Light Theme
+- Load More Option
+
+
+## Setup
+No other external requirements / dependencies are required to setup or execute this system in one's local environment.
+
+
+## Usage
+This project uses Npm as package manager.
 In the project directory, you can run:
 
 ### `npm start`
@@ -39,32 +72,24 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Project Status
+Project is: _in progress_ 
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+## Room for Improvement
+This project application consists of a few areas that need to be slightly improved, which could have been accomplished with much time.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Room for improvement:
+- Effective navigation between cards using an ID
+- Active slider bar with a visible track
+- Implementation of relevant APIs 
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Acknowledgements
 
-### Making a Progressive Web App
+- Many thanks to AxisTech for taking the time to provide this amazing opportunity.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Contact
+Created by Tharushi Amanda
