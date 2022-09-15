@@ -35,7 +35,7 @@ No external requirements / dependencies are required to setup or execute this sy
 
 
 ## Usage
-This project uses Npm as package manager.
+This project uses `npm` as package manager.
 
 In the project directory, you can run:
 
