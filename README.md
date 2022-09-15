@@ -24,8 +24,7 @@
 
 
 ## Features
-The project 
-List the ready features here:
+The project's ready features list:
 - Expected Front-end Development
 - Dark/Light Theme
 - Load More Option
@@ -37,6 +36,7 @@ No external requirements / dependencies are required to setup or execute this sy
 
 ## Usage
 This project uses Npm as package manager.\
+
 In the project directory, you can run:
 
 ### `npm start`
