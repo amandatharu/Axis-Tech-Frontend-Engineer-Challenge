@@ -1,5 +1,5 @@
-#Axis-Tech-Frontend-Engineer-Challenege
-This application was built for a charity donation project as a part of the AxisTech selection process.
+## Axis-Tech-Frontend-Engineer-Challenege
+> This application was built for a charity donation project as a part of the AxisTech selection process.
 
 ## Table of Contents
 * [General Info](#general-information)
